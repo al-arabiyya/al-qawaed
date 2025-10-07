@@ -1,0 +1,6 @@
+{
+  "tailwindStylesheet": "./css/al_uloum.css",
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ]
+}

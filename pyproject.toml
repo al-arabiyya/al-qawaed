@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "al-qawaed"
+name = "al-uloum"
 version = "0.1.0"
-description = "Poets and Poems"
+description = "Arabic Grammar"
 authors = ["Yousef Abu Shanab <josephyousef249@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "al_qawaed" }]
-homepage = "https://github.com/al-arabiyya/al-qawaed"
-repository = "https://github.com/al-arabiyya/al-qawaed"
-documentation = "https://github.com/al-arabiyya/al-qawaed"
+packages = [{ include = "al_uloum" }]
+homepage = "https://github.com/al-arabiyya/al-uloum"
+repository = "https://github.com/al-arabiyya/al-uloum"
+documentation = "https://github.com/al-arabiyya/al-uloum"
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -16,7 +16,7 @@ django = "^5.2.1"
 djangorestframework = ">=3.16.0"
 drf-restwind = ">=0.2.0"
 wagtail = ">=7.0"
-wagtail-tw-blocks = ">=0.2.4"
+wagtail-tw-blocks = ">=0.2.5"
 
 
 [tool.poetry.group.dev.dependencies]

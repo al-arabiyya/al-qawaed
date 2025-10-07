@@ -1,6 +1,0 @@
-{
-  "tailwindStylesheet": "./css/al_qawaed.css",
-  "plugins": [
-    "prettier-plugin-tailwindcss"
-  ]
-}

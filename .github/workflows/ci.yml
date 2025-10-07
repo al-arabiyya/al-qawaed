@@ -25,13 +25,17 @@ jobs:
           pip install poetry
           poetry install
           poetry run django-admin startproject core
-          mv al_qawaed core
+          mv al_uloum core
 
           # Settings
-          echo "'al_qawaed'," >> core/settings.py
-          echo "'al_qawaed.apps.home'," >> core/settings.py
-          echo "'al_qawaed.cms'," >> core/settings.py
-          echo "'al_qawaed.ui'," >> core/settings.py
+          echo "'al_uloum'," >> core/settings.py
+          echo "'al_uloum.api'," >> core/settings.py
+          echo "'al_uloum.apps.home'," >> core/settings.py
+          echo "'al_uloum.apps.indexes'," >> core/settings.py
+          echo "'al_uloum.apps.pages'," >> core/settings.py
+          echo "'al_uloum.apps.sections'," >> core/settings.py
+          echo "'al_uloum.cms'," >> core/settings.py
+          echo "'al_uloum.ui'," >> core/settings.py
           echo "'rest_wind'," >> core/settings.py
           echo "'rest_framework'," >> core/settings.py
           echo "'wagtail.contrib.forms'," >> core/settings.py
@@ -51,7 +55,7 @@ jobs:
 
           # URLConf
           echo "from django.urls import include" >> core/urls.py
-          echo "urlpatterns += [path('', include('al_qawaed.ui.urls')), path('api/', include('al_qawaed.api.urls')),]" >> core/urls.py
+          echo "urlpatterns += [path('', include('al_uloum.ui.urls')), path('api/', include('al_uloum.api.urls')),]" >> core/urls.py
 
       - name: Run checks and tests
         run: |

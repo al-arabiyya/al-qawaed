@@ -15,13 +15,13 @@ RUN python -m pip install -r requirements.txt
 
 # Create new Django project and configure the settings
 RUN python -m django startproject core
-RUN cp -r ./al_qawaed ./core
+RUN cp -r ./al_uloum ./core
 
 # Settings
-RUN echo "'al_qawaed'," >> core/settings.py
-RUN echo "'al_qawaed.apps.home'," >> core/settings.py
-RUN echo "'al_qawaed.cms'," >> core/settings.py
-RUN echo "'al_qawaed.ui'," >> core/settings.py
+RUN echo "'al_uloum'," >> core/settings.py
+RUN echo "'al_uloum.apps.home'," >> core/settings.py
+RUN echo "'al_uloum.cms'," >> core/settings.py
+RUN echo "'al_uloum.ui'," >> core/settings.py
 RUN echo "'rest_wind'," >> core/settings.py
 RUN echo "'rest_framework'," >> core/settings.py
 RUN echo "'wagtail.contrib.forms'," >> core/settings.py
@@ -41,7 +41,7 @@ RUN echo "]" >> core/settings.py
 
 # URLConf
 RUN echo "from django.urls import include" >> core/urls.py
-RUN echo "urlpatterns += [path('', include('al_qawaed.ui.urls')), path('api/', include('al_qawaed.api.urls')),]" >> core/urls.py
+RUN echo "urlpatterns += [path('', include('al_uloum.ui.urls')), path('api/', include('al_uloum.api.urls')),]" >> core/urls.py
 
 WORKDIR /app
 COPY . /app

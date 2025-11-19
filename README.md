@@ -1,11 +1,8 @@
 # al-uloum
 
 [![CI](https://github.com/al-arabiyya/al-uloum/actions/workflows/ci.yml/badge.svg)](https://github.com/al-arabiyya/al-uloum/actions/workflows/ci.yml)
-[![CD](https://github.com/al-arabiyya/al-uloum/actions/workflows/cd.yml/badge.svg)](https://github.com/al-arabiyya/al-uloum/actions/workflows/cd.yml)
 [![Code Style: Black](https://github.com/al-arabiyya/al-uloum/actions/workflows/black.yml/badge.svg)](https://github.com/al-arabiyya/al-uloum/actions/workflows/black.yml)
 [![Code Linting: Ruff](https://github.com/al-arabiyya/al-uloum/actions/workflows/ruff.yml/badge.svg)](https://github.com/al-arabiyya/al-uloum/actions/workflows/ruff.yml)
-[![Docker Image](https://github.com/al-arabiyya/al-uloum/actions/workflows/docker-image.yml/badge.svg)](https://github.com/al-arabiyya/al-uloum/actions/workflows/docker-image.yml)
-[![Docker Publish](https://github.com/al-arabiyya/al-uloum/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/al-arabiyya/al-uloum/actions/workflows/docker-publish.yml)
 
 ## Overview
 
